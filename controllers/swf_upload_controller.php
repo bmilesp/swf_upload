@@ -1,14 +1,13 @@
 <?php 
 
+/* for demo purposes */
+
 class SwfUploadController extends SwfUploadAppController{
 	
 	var $uses = array();
 	var $helpers = array('Javascript','SwfUpload.SwfUpload');
-	
-	
-	function index(){
-			
-	}
+		
+	function index(){}
 	
 	function upload(){
 		$this->autoRender = false;
