@@ -1,3 +1,4 @@
-<?php 
-	echo $this->element('swf_upload');
+<?php echo $swfUpload->button();
+	  echo $swfUpload->cancelButton();
+	  echo $swfUpload->progressTarget();
 ?>

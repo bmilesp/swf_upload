@@ -3,7 +3,7 @@
 class SwfUploadController extends SwfUploadAppController{
 	
 	var $uses = array();
-	var $helpers = array('Javascript','Js'=> array('Jquery'));
+	var $helpers = array('Javascript','SwfUpload.SwfUpload');
 	
 	
 	function index(){
