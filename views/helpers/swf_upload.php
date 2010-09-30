@@ -83,7 +83,7 @@ class SwfUploadHelper extends AppHelper {
 	 */
 	function button($options = array()){
 		
-		//see swfUpload documentation for further explaination of options
+		//see swfUpload documentation for further explanation of options
 		$defaultOptions = array(
 			'progressTargetDomId' => 'uploadList',
 			'cancelButtonDomId' => 'btnCancel1',
@@ -179,7 +179,11 @@ class SwfUploadHelper extends AppHelper {
 	 * @param $options
 	 */
 	function cancelButton($options = array()){
-		return $this->output("<input id='{$this->__cancelButtonDomId}' 
+		
+		$defaultOptions = array('domType'=>'input');
+		
+		$options = array_merge($defaultOptions,$options);
+		return $this->output("<{$options['domType']} id='{$this->__cancelButtonDomId}' 
 									 type='button' value='Cancel Uploads' 
 									 onclick='cancelQueue(suo);' />");
 	}
@@ -189,7 +193,11 @@ class SwfUploadHelper extends AppHelper {
 	 * @param $options
 	 */
 	function progressTarget($options = array()){
-		return $this->output("<div id='{$this->__progressTargetDomId}'></div>");
+		
+		$defaultOptions = array('type'=>'div');
+		
+		$options = array_merge($defaultOptions,$options);
+		return $this->output("<{$options['type']} id='{$this->__progressTargetDomId}'></{$options['type']}>");
 	}
 	
  }?>

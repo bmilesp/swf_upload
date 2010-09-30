@@ -45,5 +45,5 @@ The plugin itself is already capable of:
 
 ## ToDos ##
 
-*add tolkens/sessions for secure uploads
-*use elements for easier progressbar design
+* add tolkens/sessions for secure uploads
+* add option to toggle multi/singe file upload dialog

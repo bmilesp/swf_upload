@@ -102,3 +102,10 @@ a.progressCancel:hover {
 .swfupload {
 	vertical-align: top;
 }
+
+input[type=button]{
+	font-size:12px;
+	width: 150px;
+	height: 27px;
+	padding:1px;
+}
