@@ -109,3 +109,8 @@ input[type=button]{
 	height: 27px;
 	padding:1px;
 }
+
+ul, li {
+list-style-type:none;
+margin:0 12px;
+}
