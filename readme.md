@@ -47,3 +47,4 @@ The plugin itself is already capable of:
 
 * add tolkens/sessions for secure uploads
 * add option to toggle multi/singe file upload dialog
+* get Steve Jobs to follow me
