@@ -30,7 +30,7 @@ Otherwise, jQuery is the default library, thus simply include the helper like so
 
 Please look at the code in swf_upload/view/swf_upload/index.ctp to see the helper methods demo. the three main methods are:
 
-		echo $swfUpload->button('uploadUrl' => array('action'=>'your_upload_action'));
+		echo $swfUpload->button(array('uploadUrl' => array('action'=>'your_upload_action')));
 	  	echo $swfUpload->cancelButton();
 	  	echo $swfUpload->progressTarget();
 	
